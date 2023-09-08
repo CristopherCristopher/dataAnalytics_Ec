@@ -1,4 +1,3 @@
-import os
 import dash
 import dash_bootstrap_components as dbc
 from dash import Input, Output, dcc, html, callback, dash_table
@@ -6,8 +5,6 @@ import pandas as pd
 import plotly.express as px
 import dash_mantine_components as dmc
 
-
-os.chdir('C:/Users/HP/Desktop/PROYECTO/C001')
 
 # datos a leer gapminder
 df = px.data.gapminder()
