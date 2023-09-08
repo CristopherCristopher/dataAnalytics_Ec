@@ -121,6 +121,7 @@ def render_page_content(pathname):
 
 
 if __name__ == "__main__":
-    import socket
-    ip = socket.gethostbyname(socket.gethostname())
-    app.run_server(host=ip, port=8050, debug =True)
+    #import socket
+    #ip = socket.gethostbyname(socket.gethostname())
+    #app.run_server(host=ip, port=8050, debug =True)
+    app.run_server(debug =True)
